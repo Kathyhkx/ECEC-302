@@ -1,0 +1,3 @@
+vhdl work "PE.vhd"
+vhdl work "a_mult.vhd"
+vhdl work "mult4.vhd"

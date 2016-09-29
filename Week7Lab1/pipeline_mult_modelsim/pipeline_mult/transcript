@@ -1,0 +1,45 @@
+# Compile of pe.vhd was successful.
+# Compile of pipe_mult.vhd failed with 2 errors.
+# Compile of DFF.vhd was successful.
+# 3 compiles, 1 failed with 2 errors. 
+# Compile of pipe_mult.vhd failed with 1 errors.
+# Compile of DFF.vhd failed with 1 errors.
+# Compile of DFF.vhd failed with 1 errors.
+# Compile of DFF.vhd failed with 1 errors.
+# Compile of DFF.vhd was successful.
+# Compile of pipe_mult.vhd failed with 1 errors.
+# Compile of pipe_mult.vhd failed with 3 errors.
+# Compile of pipe_mult.vhd failed with 3 errors.
+# Compile of pipe_mult.vhd was successful.
+# Compile of pipe_mult.vhd was successful.
+vsim pipelines.pipe_mult
+# vsim pipelines.pipe_mult 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Error: Z:/ECEC 302/pipeline_mult/pipe_mult.vhd(42): (vopt-1152) Index value 4 is out of index range 3 downto 0 of ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# 
+# ** Error: Z:/ECEC 302/pipeline_mult/pipe_mult.vhd(42): (vopt-1152) Index value 4 is out of index range 3 downto 0 of ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# 
+# ** Error: Z:/ECEC 302/pipeline_mult/pipe_mult.vhd(71): Vopt Compiler exiting
+# Error loading design
+# Compile of pipe_mult.vhd was successful.
+vsim pipelines.pipe_mult
+# vsim pipelines.pipe_mult 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Error: Z:/ECEC 302/pipeline_mult/pipe_mult.vhd(42): (vopt-1152) Index value 4 is out of index range 3 downto 0 of ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# 
+# ** Error: Z:/ECEC 302/pipeline_mult/pipe_mult.vhd(42): (vopt-1152) Index value 4 is out of index range 3 downto 0 of ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# 
+# ** Error: Z:/ECEC 302/pipeline_mult/pipe_mult.vhd(71): Vopt Compiler exiting
+# Error loading design
+# Compile of pipe_mult.vhd was successful.
+vsim pipelines.pipe_mult
+# vsim pipelines.pipe_mult 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.pipe_mult(struc)#1
+add wave sim:/pipe_mult/*

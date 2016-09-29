@@ -1,0 +1,8 @@
+Release 14.6 Drc P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Thu Apr 24 17:53:41 2014
+
+drc -z t_gate_impl.ncd t_gate_impl.pcf
+
+DRC detected 0 errors and 0 warnings.

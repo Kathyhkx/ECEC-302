@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\mkm84\Desktop\Lab2\my_reg\my_reg.ncd
+OUTFILE=C:\Users\mkm84\Desktop\Lab2\my_reg\my_reg.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=C:\Users\mkm84\Desktop\Lab2\my_reg
+LICENSE=ISE
+USER_INFO=210821937_1777496420_210570647_128

@@ -1,0 +1,4 @@
+vhdl work "pe.vhd"
+vhdl work "DFF.vhd"
+vhdl work "pipe_mult.vhd"
+vhdl work "mult3.vhd"

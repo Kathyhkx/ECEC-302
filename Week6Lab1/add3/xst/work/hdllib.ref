@@ -1,0 +1,11 @@
+AR sh_reg behav "//dunx1.irt.drexel.edu/mkm84/ECEC 302/add3/work/sh_reg.vhd" sub00/vhpl04 1399409638
+EN adder NULL "//dunx1.irt.drexel.edu/mkm84/ECEC 302/add3/work/adder.vhd" sub00/vhpl07 1399409641
+EN serial_adder NULL "//dunx1.irt.drexel.edu/mkm84/ECEC 302/add3/work/serial_add.vhd" sub00/vhpl01 1399409635
+EN sh_reg NULL "//dunx1.irt.drexel.edu/mkm84/ECEC 302/add3/work/sh_reg.vhd" sub00/vhpl03 1399409637
+AR serial_adder behav "//dunx1.irt.drexel.edu/mkm84/ECEC 302/add3/work/serial_add.vhd" sub00/vhpl02 1399409636
+AR adder struc "//dunx1.irt.drexel.edu/mkm84/ECEC 302/add3/work/adder.vhd" sub00/vhpl08 1399409642
+AR control behav "//dunx1.irt.drexel.edu/mkm84/ECEC 302/add3/work/control.vhd" sub00/vhpl06 1399409640
+AR add3 behavioral "//dunx1.irt.drexel.edu/mkm84/ECEC 302/add3/add3.vhd" sub00/vhpl10 1399409644
+PH p1_pack NULL "//dunx1.irt.drexel.edu/mkm84/ECEC 302/add3/work/p1_pack.vhd" sub00/vhpl00 1399409634
+EN add3 NULL "//dunx1.irt.drexel.edu/mkm84/ECEC 302/add3/add3.vhd" sub00/vhpl09 1399409643
+EN control NULL "//dunx1.irt.drexel.edu/mkm84/ECEC 302/add3/work/control.vhd" sub00/vhpl05 1399409639

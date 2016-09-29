@@ -1,0 +1,2 @@
+vhdl work "ipcore_dir/fifo_416.vhd"
+vhdl work "myfifo.vhd"

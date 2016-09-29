@@ -1,0 +1,26 @@
+//! **************************************************************************
+// Written by: Map P.68d on Thu May 22 16:14:36 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "douta<0>" LOCATE = SITE "N5" LEVEL 1;
+COMP "douta<1>" LOCATE = SITE "N4" LEVEL 1;
+COMP "douta<2>" LOCATE = SITE "P4" LEVEL 1;
+COMP "douta<3>" LOCATE = SITE "G1" LEVEL 1;
+COMP "clka" LOCATE = SITE "B8" LEVEL 1;
+COMP "douta2<0>" LOCATE = SITE "M5" LEVEL 1;
+COMP "douta2<1>" LOCATE = SITE "M11" LEVEL 1;
+COMP "wea<0>" LOCATE = SITE "G12" LEVEL 1;
+COMP "douta2<2>" LOCATE = SITE "P7" LEVEL 1;
+COMP "douta2<3>" LOCATE = SITE "P6" LEVEL 1;
+COMP "addra<0>" LOCATE = SITE "G3" LEVEL 1;
+COMP "dina<0>" LOCATE = SITE "P11" LEVEL 1;
+COMP "addra<1>" LOCATE = SITE "F3" LEVEL 1;
+COMP "dina<1>" LOCATE = SITE "L3" LEVEL 1;
+COMP "addra<2>" LOCATE = SITE "E2" LEVEL 1;
+COMP "dina<2>" LOCATE = SITE "K3" LEVEL 1;
+COMP "addra<3>" LOCATE = SITE "N3" LEVEL 1;
+COMP "dina<3>" LOCATE = SITE "B4" LEVEL 1;
+NET "clka_BUFGP/IBUFG" BEL "clka_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

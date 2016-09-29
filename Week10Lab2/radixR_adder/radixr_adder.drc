@@ -1,0 +1,8 @@
+Release 14.6 Drc P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Tue May 27 17:37:10 2014
+
+drc -z radixR_adder.ncd radixR_adder.pcf
+
+DRC detected 0 errors and 0 warnings.

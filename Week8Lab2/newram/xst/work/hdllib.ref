@@ -1,0 +1,4 @@
+EN my_ram NULL "//dunx1.irt.drexel.edu/mkm84/ECEC 302/newram/my_ram.vhd" sub00/vhpl02 1400789662
+AR my_ram behavioral "//dunx1.irt.drexel.edu/mkm84/ECEC 302/newram/my_ram.vhd" sub00/vhpl03 1400789663
+AR ram_416 ram_416_a "//dunx1.irt.drexel.edu/mkm84/ECEC 302/newram/ipcore_dir/ram_416.vhd" sub00/vhpl01 1400789661
+EN ram_416 NULL "//dunx1.irt.drexel.edu/mkm84/ECEC 302/newram/ipcore_dir/ram_416.vhd" sub00/vhpl00 1400789660

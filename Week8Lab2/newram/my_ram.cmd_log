@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "Z:/ECEC 302/newram/my_ram.xst" -ofn "Z:/ECEC 302/newram/my_ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s100e-cp132-4 "my_ram.ngc" my_ram.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o my_ram_map.ncd my_ram.ngd my_ram.pcf 
+par -w -intstyle ise -ol high -t 1 my_ram_map.ncd my_ram.ncd my_ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml my_ram.twx my_ram.ncd -o my_ram.twr my_ram.pcf 
+bitgen -intstyle ise -f my_ram.ut my_ram.ncd 
+bitgen -intstyle ise -f my_ram.ut my_ram.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc my_ram.ucf -p xc3s100e-cp132-4 "my_ram.ngc" my_ram.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o my_ram_map.ncd my_ram.ngd my_ram.pcf 
+par -w -intstyle ise -ol high -t 1 my_ram_map.ncd my_ram.ncd my_ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml my_ram.twx my_ram.ncd -o my_ram.twr my_ram.pcf -ucf my_ram.ucf 
+bitgen -intstyle ise -f my_ram.ut my_ram.ncd 
+xst -intstyle ise -ifn "Z:/ECEC 302/newram/my_ram.xst" -ofn "Z:/ECEC 302/newram/my_ram.syr" 
+xst -intstyle ise -ifn "Z:/ECEC 302/newram/my_ram.xst" -ofn "Z:/ECEC 302/newram/my_ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc my_ram.ucf -p xc3s100e-cp132-4 "my_ram.ngc" my_ram.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o my_ram_map.ncd my_ram.ngd my_ram.pcf 
+par -w -intstyle ise -ol high -t 1 my_ram_map.ncd my_ram.ncd my_ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml my_ram.twx my_ram.ncd -o my_ram.twr my_ram.pcf -ucf my_ram.ucf 
+bitgen -intstyle ise -f my_ram.ut my_ram.ncd 
+bitgen -intstyle ise -f my_ram.ut my_ram.ncd 

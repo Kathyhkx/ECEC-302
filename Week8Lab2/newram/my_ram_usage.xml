@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<DeviceUsageSummary rev="8">
+<DesignStatistics TimeStamp="Thu May 22 16:15:22 2014"><group name="NetStatistics">
+<item name="NumNets_Active" rev="8">
+<attrib name="value" value="37"/></item>
+<item name="NumNets_Gnd" rev="8">
+<attrib name="value" value="1"/></item>
+<item name="NumNets_Vcc" rev="8">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Active_BRAMADDR" rev="8">
+<attrib name="value" value="16"/></item>
+<item name="NumNodesOfType_Active_BRAMDUMMY" rev="8">
+<attrib name="value" value="20"/></item>
+<item name="NumNodesOfType_Active_CLKPIN" rev="8">
+<attrib name="value" value="4"/></item>
+<item name="NumNodesOfType_Active_DOUBLE" rev="8">
+<attrib name="value" value="75"/></item>
+<item name="NumNodesOfType_Active_DUMMY" rev="8">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Active_DUMMYBANK" rev="8">
+<attrib name="value" value="15"/></item>
+<item name="NumNodesOfType_Active_DUMMYESC" rev="8">
+<attrib name="value" value="10"/></item>
+<item name="NumNodesOfType_Active_GLOBAL" rev="8">
+<attrib name="value" value="6"/></item>
+<item name="NumNodesOfType_Active_HUNIHEX" rev="8">
+<attrib name="value" value="6"/></item>
+<item name="NumNodesOfType_Active_INPUT" rev="8">
+<attrib name="value" value="45"/></item>
+<item name="NumNodesOfType_Active_IOBOUTPUT" rev="8">
+<attrib name="value" value="10"/></item>
+<item name="NumNodesOfType_Active_OMUX" rev="8">
+<attrib name="value" value="7"/></item>
+<item name="NumNodesOfType_Active_OUTPUT" rev="8">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Active_VFULLHEX" rev="8">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Active_VUNIHEX" rev="8">
+<attrib name="value" value="10"/></item>
+<item name="NumNodesOfType_Gnd_BRAMADDR" rev="8">
+<attrib name="value" value="18"/></item>
+<item name="NumNodesOfType_Gnd_BRAMDUMMY" rev="8">
+<attrib name="value" value="140"/></item>
+<item name="NumNodesOfType_Gnd_DOUBLE" rev="8">
+<attrib name="value" value="9"/></item>
+<item name="NumNodesOfType_Gnd_DUMMYBANK" rev="8">
+<attrib name="value" value="12"/></item>
+<item name="NumNodesOfType_Gnd_INPUT" rev="8">
+<attrib name="value" value="158"/></item>
+<item name="NumNodesOfType_Gnd_OMUX" rev="8">
+<attrib name="value" value="13"/></item>
+<item name="NumNodesOfType_Gnd_OUTPUT" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="NumNodesOfType_Vcc_BRAMADDR" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="NumNodesOfType_Vcc_BRAMDUMMY" rev="8">
+<attrib name="value" value="4"/></item>
+<item name="NumNodesOfType_Vcc_CNTRLPIN" rev="8">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Vcc_INPUT" rev="8">
+<attrib name="value" value="6"/></item>
+<item name="NumNodesOfType_Vcc_VCCOUT" rev="8">
+<attrib name="value" value="3"/></item>
+</group>
+<group name="SiteStatistics">
+<item name="IBUF-DIFFM" rev="8">
+<attrib name="value" value="3"/></item>
+<item name="IBUF-DIFFMI" rev="8">
+<attrib name="value" value="1"/></item>
+<item name="IBUF-DIFFSI" rev="8">
+<attrib name="value" value="1"/></item>
+<item name="IOB-DIFFM" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="IOB-DIFFS" rev="8">
+<attrib name="value" value="5"/></item>
+</group>
+<group name="MiscellaneousStatistics">
+<item name="AGG_BONDED_IO" rev="6">
+<attrib name="value" value="18"/></item>
+<item name="AGG_IO" rev="6">
+<attrib name="value" value="18"/></item>
+<item name="NUM_BONDED_IBUF" rev="6">
+<attrib name="value" value="10"/></item>
+<item name="NUM_BONDED_IOB" rev="6">
+<attrib name="value" value="8"/></item>
+<item name="NUM_BUFGMUX" rev="6">
+<attrib name="value" value="1"/></item>
+<item name="NUM_RAMB16" rev="6">
+<attrib name="value" value="2"/></item>
+<item name="Xilinx Core blk_mem_gen_v7_3, Xilinx CORE Generator 14.6" rev="6">
+<attrib name="value" value="2"/></item>
+</group>
+</DesignStatistics>
+<DeviceUsage TimeStamp="Thu May 22 16:15:22 2014"><group name="SiteSummary">
+<item name="BUFGMUX" rev="8">
+<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
+<item name="BUFGMUX_GCLKMUX" rev="8">
+<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
+<item name="BUFGMUX_GCLK_BUFFER" rev="8">
+<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
+<item name="IBUF" rev="8">
+<attrib name="total" value="1000000"/><attrib name="used" value="10"/></item>
+<item name="IBUF_INBUF" rev="8">
+<attrib name="total" value="1000000"/><attrib name="used" value="10"/></item>
+<item name="IBUF_PAD" rev="8">
+<attrib name="total" value="1000000"/><attrib name="used" value="10"/></item>
+<item name="IOB" rev="8">
+<attrib name="total" value="1000000"/><attrib name="used" value="8"/></item>
+<item name="IOB_OUTBUF" rev="8">
+<attrib name="total" value="1000000"/><attrib name="used" value="8"/></item>
+<item name="IOB_PAD" rev="8">
+<attrib name="total" value="1000000"/><attrib name="used" value="8"/></item>
+<item name="RAMB16" rev="8">
+<attrib name="total" value="1000000"/><attrib name="used" value="2"/></item>
+<item name="RAMB16_RAMB16" rev="8">
+<attrib name="total" value="1000000"/><attrib name="used" value="2"/></item>
+<item name="RAMB16_RAMB16A" rev="8">
+<attrib name="total" value="1000000"/><attrib name="used" value="2"/></item>
+<item name="RAMB16_RAMB16B" rev="8">
+<attrib name="total" value="1000000"/><attrib name="used" value="2"/></item>
+</group>
+</DeviceUsage>
+<ReportConfigData TimeStamp="Thu May 22 16:15:22 2014"><group name="IBUF_PAD">
+<item name="IOATTRBOX" rev="8">
+<attrib name="LVCMOS25" value="10"/></item>
+</group>
+<group name="RAMB16">
+<item name="CLKA" rev="8">
+<attrib name="CLKA_INV" value="0"/><attrib name="CLKA" value="2"/></item>
+<item name="CLKB" rev="8">
+<attrib name="CLKB_INV" value="0"/><attrib name="CLKB" value="2"/></item>
+<item name="ENA" rev="8">
+<attrib name="ENA_INV" value="0"/><attrib name="ENA" value="2"/></item>
+<item name="ENB" rev="8">
+<attrib name="ENB_INV" value="0"/><attrib name="ENB" value="2"/></item>
+<item name="SSRA" rev="8">
+<attrib name="SSRA_INV" value="0"/><attrib name="SSRA" value="2"/></item>
+<item name="SSRB" rev="8">
+<attrib name="SSRB_INV" value="0"/><attrib name="SSRB" value="2"/></item>
+<item name="WEA" rev="8">
+<attrib name="WEA" value="2"/><attrib name="WEA_INV" value="0"/></item>
+<item name="WEB" rev="8">
+<attrib name="WEB" value="2"/><attrib name="WEB_INV" value="0"/></item>
+</group>
+<group name="IOB_OUTBUF">
+<item name="IN" rev="8">
+<attrib name="IN_INV" value="0"/><attrib name="IN" value="8"/></item>
+</group>
+<group name="RAMB16_RAMB16A">
+<item name="CLKA" rev="8">
+<attrib name="CLKA_INV" value="0"/><attrib name="CLKA" value="2"/></item>
+<item name="ENA" rev="8">
+<attrib name="ENA_INV" value="0"/><attrib name="ENA" value="2"/></item>
+<item name="PORTA_ATTR" rev="8">
+<attrib name="512X36" value="2"/></item>
+<item name="SSRA" rev="8">
+<attrib name="SSRA_INV" value="0"/><attrib name="SSRA" value="2"/></item>
+<item name="WEA" rev="8">
+<attrib name="WEA" value="2"/><attrib name="WEA_INV" value="0"/></item>
+<item name="WRITEMODEA" rev="8">
+<attrib name="WRITE_FIRST" value="2"/></item>
+</group>
+<group name="RAMB16_RAMB16B">
+<item name="CLKB" rev="8">
+<attrib name="CLKB_INV" value="0"/><attrib name="CLKB" value="2"/></item>
+<item name="ENB" rev="8">
+<attrib name="ENB_INV" value="0"/><attrib name="ENB" value="2"/></item>
+<item name="PORTB_ATTR" rev="8">
+<attrib name="512X36" value="2"/></item>
+<item name="SSRB" rev="8">
+<attrib name="SSRB_INV" value="0"/><attrib name="SSRB" value="2"/></item>
+<item name="WEB" rev="8">
+<attrib name="WEB" value="2"/><attrib name="WEB_INV" value="0"/></item>
+<item name="WRITEMODEB" rev="8">
+<attrib name="WRITE_FIRST" value="2"/></item>
+</group>
+<group name="BUFGMUX_GCLKMUX">
+<item name="DISABLE_ATTR" rev="8">
+<attrib name="LOW" value="1"/></item>
+<item name="S" rev="8">
+<attrib name="S_INV" value="1"/><attrib name="S" value="0"/></item>
+</group>
+<group name="IOB_PAD">
+<item name="DRIVEATTRBOX" rev="8">
+<attrib name="12" value="8"/></item>
+<item name="IOATTRBOX" rev="8">
+<attrib name="LVCMOS25" value="8"/></item>
+<item name="SLEW" rev="8">
+<attrib name="SLOW" value="8"/></item>
+</group>
+<group name="IOB">
+<item name="O1" rev="8">
+<attrib name="O1_INV" value="0"/><attrib name="O1" value="8"/></item>
+</group>
+<group name="BUFGMUX">
+<item name="S" rev="8">
+<attrib name="S_INV" value="1"/><attrib name="S" value="0"/></item>
+</group>
+</ReportConfigData>
+<ReportPinData TimeStamp="Thu May 22 16:15:22 2014"><group name="IBUF_PAD">
+<item name="PAD" rev="8">
+<attrib name="value" value="10"/></item>
+</group>
+<group name="IBUF_INBUF">
+<item name="IN" rev="8">
+<attrib name="value" value="10"/></item>
+<item name="OUT" rev="8">
+<attrib name="value" value="10"/></item>
+</group>
+<group name="BUFGMUX_GCLK_BUFFER">
+<item name="IN" rev="8">
+<attrib name="value" value="1"/></item>
+<item name="OUT" rev="8">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="RAMB16">
+<item name="ADDRA10" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRA11" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRA12" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRA13" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRA5" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRA6" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRA7" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRA8" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRA9" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRB10" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRB11" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRB12" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRB13" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRB5" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRB6" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRB7" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRB8" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRB9" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="CLKA" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="CLKB" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA0" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA1" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA10" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA11" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA12" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA13" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA14" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA15" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA16" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA17" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA18" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA19" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA2" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA20" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA21" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA22" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA23" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA24" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA25" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA26" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA27" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA28" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA29" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA3" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA30" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA31" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA4" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA5" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA6" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA7" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA8" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA9" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB0" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB1" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB10" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB11" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB12" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB13" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB14" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB15" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB16" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB17" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB18" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB19" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB2" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB20" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB21" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB22" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB23" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB24" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB25" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB26" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB27" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB28" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB29" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB3" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB30" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB31" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB4" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB5" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB6" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB7" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB8" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB9" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIPA0" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIPA1" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIPA2" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIPA3" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIPB0" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIPB1" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIPB2" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIPB3" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DOA0" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DOA16" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DOB0" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DOB16" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ENA" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ENB" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="SSRA" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="SSRB" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="WEA" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="WEB" rev="8">
+<attrib name="value" value="2"/></item>
+</group>
+<group name="IOB_OUTBUF">
+<item name="IN" rev="8">
+<attrib name="value" value="8"/></item>
+<item name="OUT" rev="8">
+<attrib name="value" value="8"/></item>
+</group>
+<group name="RAMB16_RAMB16A">
+<item name="ADDRA" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRA10" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRA11" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRA12" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRA13" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRA5" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRA6" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRA7" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRA8" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRA9" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="CLKA" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA0" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA1" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA10" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA11" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA12" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA13" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA14" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA15" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA16" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA17" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA18" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA19" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA2" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA20" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA21" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA22" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA23" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA24" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA25" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA26" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA27" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA28" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA29" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA3" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA30" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA31" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA4" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA5" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA6" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA7" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA8" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA9" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIPA0" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIPA1" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIPA2" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIPA3" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DOA" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DOA0" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DOA16" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ENA" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="SSRA" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="WEA" rev="8">
+<attrib name="value" value="2"/></item>
+</group>
+<group name="RAMB16_RAMB16B">
+<item name="ADDRB" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRB10" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRB11" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRB12" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRB13" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRB5" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRB6" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRB7" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRB8" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRB9" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="CLKB" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB0" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB1" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB10" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB11" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB12" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB13" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB14" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB15" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB16" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB17" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB18" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB19" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB2" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB20" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB21" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB22" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB23" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB24" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB25" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB26" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB27" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB28" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB29" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB3" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB30" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB31" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB4" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB5" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB6" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB7" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB8" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB9" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIPB0" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIPB1" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIPB2" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIPB3" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DOB" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DOB0" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DOB16" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ENB" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="SSRB" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="WEB" rev="8">
+<attrib name="value" value="2"/></item>
+</group>
+<group name="IBUF">
+<item name="I" rev="8">
+<attrib name="value" value="10"/></item>
+<item name="PAD" rev="8">
+<attrib name="value" value="10"/></item>
+</group>
+<group name="BUFGMUX_GCLKMUX">
+<item name="I0" rev="8">
+<attrib name="value" value="1"/></item>
+<item name="OUT" rev="8">
+<attrib name="value" value="1"/></item>
+<item name="S" rev="8">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="IOB_PAD">
+<item name="PAD" rev="8">
+<attrib name="value" value="8"/></item>
+</group>
+<group name="IOB">
+<item name="O1" rev="8">
+<attrib name="value" value="8"/></item>
+<item name="PAD" rev="8">
+<attrib name="value" value="8"/></item>
+</group>
+<group name="BUFGMUX">
+<item name="I0" rev="8">
+<attrib name="value" value="1"/></item>
+<item name="O" rev="8">
+<attrib name="value" value="1"/></item>
+<item name="S" rev="8">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="RAMB16_RAMB16">
+<item name="ADDRA" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="ADDRB" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIA" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DIB" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DOA" rev="8">
+<attrib name="value" value="2"/></item>
+<item name="DOB" rev="8">
+<attrib name="value" value="2"/></item>
+</group>
+</ReportPinData>
+<CmdHistory>
+</CmdHistory>
+</DeviceUsageSummary>

@@ -1,0 +1,4 @@
+EN myaccum NULL "//dunx1.irt.drexel.edu/mkm84/ECEC 302/accumulator/myaccum.vhd" sub00/vhpl02 1401826720
+AR accum accum_a "//dunx1.irt.drexel.edu/mkm84/ECEC 302/accumulator/ipcore_dir/accum.vhd" sub00/vhpl01 1401826719
+EN accum NULL "//dunx1.irt.drexel.edu/mkm84/ECEC 302/accumulator/ipcore_dir/accum.vhd" sub00/vhpl00 1401826718
+AR myaccum behavioral "//dunx1.irt.drexel.edu/mkm84/ECEC 302/accumulator/myaccum.vhd" sub00/vhpl03 1401826721

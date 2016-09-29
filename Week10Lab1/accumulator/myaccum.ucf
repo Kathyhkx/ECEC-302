@@ -1,0 +1,20 @@
+NET "q<7>" 	LOC = "G1";
+NET "q<6>" 	LOC = "P4";
+NET "q<5>" 	LOC = "N4";
+NET "q<4>" 	LOC = "N5";
+NET "q<3>" 	LOC = "P6";
+NET "q<2>" 	LOC = "P7";
+NET "q<1>" 	LOC = "M11";
+NET "q<0>" 	LOC = "M5";
+
+NET "ce"	 	LOC = "N3";
+NET "sclr"	LOC = "E2";
+
+NET "b<3>"	LOC = "B4";
+NET "b<2>"	LOC = "K3";
+NET "b<1>" 	LOC = "L3";
+NET "b<0>" 	LOC = "P11";
+
+NET "clk" 		LOC = "B8";
+NET "b1" 		LOC = "M4";
+NET "b2" 		LOC = "A7";

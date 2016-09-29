@@ -1,0 +1,94 @@
+m255
+K3
+13
+cModel Technology
+Z0 dZ:\work
+T_opt
+V^3]ad=ZdlF9;E:^AYH3cF0
+04 6 5 work a_mult struc 1
+=1-90b11c87cf14-536bf4f3-2c7-1c38
+Z1 o-quiet -auto_acc_if_foreign -work arraymult
+n@_opt
+Z2 OL;O;10.1c;51
+Z3 dZ:\work
+T_opt1
+V]:;ag2Yh:[cZPSMEbc6[J3
+04 2 10 work pe concurrent 1
+=1-90b11c87cf14-536bf4f7-6b-15e0
+R1
+n@_opt1
+R2
+Ea_mult
+Z4 w1399583948
+Z5 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z6 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z7 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z8 dZ:\arraymult
+Z9 8Z:\arraymult\a_mult.vhd
+Z10 FZ:\arraymult\a_mult.vhd
+l0
+L3
+VV;g0<Ig?WA=4jNOdSW9mM0
+Z11 OL;C;10.1c;51
+32
+Z12 !s108 1399583950.930000
+Z13 !s90 -reportprogress|300|-work|arraymult|-2002|-explicit|-vopt|Z:\arraymult\a_mult.vhd|
+Z14 !s107 Z:\arraymult\a_mult.vhd|
+Z15 o-work arraymult -2002 -explicit
+Z16 tExplicit 1
+!s100 @7LCGWYgaN1Y8Uf[od6Ez2
+!i10b 1
+Astruc
+R5
+R6
+R7
+DEx4 work 6 a_mult 0 22 V;g0<Ig?WA=4jNOdSW9mM0
+l19
+L9
+V@Y0]m6g3DPTaTj_^_i22N0
+R11
+32
+R12
+R13
+R14
+R15
+R16
+!s100 [e>KD]P78G=XZ2K<lSgZQ1
+!i10b 1
+Epe
+Z17 w1399580948
+R5
+R6
+R7
+R8
+Z18 8Z:\arraymult\PE.vhd
+Z19 FZ:\arraymult\PE.vhd
+l0
+L3
+V7J^`WiBOKnR4Ga8HSTR2]1
+R11
+32
+Z20 !s108 1399580953.664000
+Z21 !s90 -reportprogress|300|-work|arraymult|-2002|-explicit|-vopt|Z:\arraymult\PE.vhd|
+Z22 !s107 Z:\arraymult\PE.vhd|
+R15
+R16
+!s100 D<;>AUj;`PMSlz_foT4Sf2
+!i10b 1
+Aconcurrent
+R5
+R6
+R7
+DEx4 work 2 pe 0 22 7J^`WiBOKnR4Ga8HSTR2]1
+l10
+L8
+VRSnC9h]iBC4=5dha=LPD:3
+R11
+32
+R20
+R21
+R22
+R15
+R16
+!s100 F@d2k3no_leWkLU06^NKH3
+!i10b 1

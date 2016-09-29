@@ -1,0 +1,148 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\work
+T_opt
+VTj^_a]mmgS0:4zZP=m_`60
+04 6 5 work sh_reg behav 1
+=1-90b11c829bb3-5356d588-282-1d78
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 n@_opt
+Z3 OL;O;10.1c;51
+Z4 dC:\work
+T_opt1
+V>:jReYnR7AW2<;ojC_BV51
+04 7 5 work control behav 1
+=1-90b11c87cf56-536006fb-30c-3cd4
+R1
+n@_opt1
+R3
+Econtrol
+Z5 w1398802083
+Z6 DPx4 work 7 p1_pack 0 22 8z_SST5Wa;NK=o>=;GGeD1
+Z7 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z8 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z9 dZ:\work
+Z10 8Z:/work/control.vhd
+Z11 FZ:/work/control.vhd
+l0
+L3
+V7M`cnOO1Y?;cL8]5jDObk0
+Z12 OL;C;10.1c;51
+32
+Z13 !s108 1398802087.878000
+Z14 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|Z:/work/control.vhd|
+Z15 !s107 Z:/work/control.vhd|
+Z16 o-work work -2002 -explicit
+Z17 tExplicit 1
+!s100 ZEKV^NUXH8DZ5njHVMDG30
+!i10b 1
+Abehav
+R6
+R7
+R8
+DEx4 work 7 control 0 22 7M`cnOO1Y?;cL8]5jDObk0
+l11
+L8
+VVV1nAZk6DOm?YZWL;AgzO2
+R12
+32
+R13
+R14
+R15
+R16
+R17
+!s100 7YEYAbf02LmEiX6HSBKIh0
+!i10b 1
+Pp1_pack
+R7
+R8
+Z18 w1398198098
+R4
+8C:/work/p1_pack.vhd
+FC:/work/p1_pack.vhd
+l0
+L3
+V8z_SST5Wa;NK=o>=;GGeD1
+R12
+32
+R16
+R17
+Z19 !s100 oQY[>];;20Z>L68IR19bf1
+!i10b 1
+!s108 1398199508.074000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/work/p1_pack.vhd|
+!s107 C:/work/p1_pack.vhd|
+Eserial_adder
+Z20 w1397592196
+R7
+R8
+R4
+Z21 8C:/work/serial_add.vhd
+Z22 FC:/work/serial_add.vhd
+l0
+L3
+V7BI8SIA]lD3<zHbmcV`hJ3
+R12
+32
+Z23 !s108 1398199508.280000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/work/serial_add.vhd|
+Z25 !s107 C:/work/serial_add.vhd|
+R16
+R17
+Z26 !s100 ZX8T_8aP]GHS8;>9G_5d@3
+!i10b 1
+Abehav
+R7
+R8
+DEx4 work 12 serial_adder 0 22 7BI8SIA]lD3<zHbmcV`hJ3
+l14
+L11
+VUcTUF<3DGXQib8o04Xi[>3
+R12
+32
+R23
+R24
+R25
+R16
+R17
+Z27 !s100 I:=PGKWkU5BR[@GkCeIb92
+!i10b 1
+Esh_reg
+Z28 w1398199585
+R6
+R7
+R8
+R4
+Z29 8C:/work/sh_reg.vhd
+Z30 FC:/work/sh_reg.vhd
+l0
+L3
+VF[bK7LH<GERS=YAWUVg7a0
+R12
+32
+Z31 !s108 1398199586.024000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/work/sh_reg.vhd|
+Z33 !s107 C:/work/sh_reg.vhd|
+R16
+R17
+Z34 !s100 `SA:OTIVmMLB6zl8e[bXU0
+!i10b 1
+Abehav
+R6
+R7
+R8
+DEx4 work 6 sh_reg 0 22 F[bK7LH<GERS=YAWUVg7a0
+l12
+L10
+VV;]BdCVUR1ZmTYd1@8:ST1
+R12
+32
+R31
+R32
+R33
+R16
+R17
+!s100 PW_EgTJGVTSZW`VJUZ]EL2
+!i10b 1

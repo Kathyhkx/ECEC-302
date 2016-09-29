@@ -1,0 +1,13 @@
+# ucf file (comments)
+NET "x<2>" LOC = "K3";	# SW2
+NET "x<1>" LOC = "L3";	# SW1
+NET "x<0>" LOC = "P11";	# SW0
+NET "en"   LOC = "N3";	# SW7
+NET "z<7>" LOC = "M5";	# LD0
+NET "z<6>" LOC = "M11";	# LD1
+NET "z<5>" LOC = "P7";	# LD2
+NET "z<4>" LOC = "P6";	# LD3
+NET "z<3>" LOC = "N5";	# LD4
+NET "z<2>" LOC = "N4";	# LD5
+NET "z<1>" LOC = "P4";	# LD6
+NET "z<0>" LOC = "G1";	# LD7

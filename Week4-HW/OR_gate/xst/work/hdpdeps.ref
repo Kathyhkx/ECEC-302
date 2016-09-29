@@ -1,0 +1,14 @@
+V3 7
+FL //dunx1.irt.drexel.edu/mkm84/Week4-HW/OR_gate/OR8.vhd 2014/04/22.18:09:54 P.68d
+EN work/OR8 1398204607 FL //dunx1.irt.drexel.edu/mkm84/Week4-HW/OR_gate/OR8.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/OR8/struc 1398204608 \
+      FL //dunx1.irt.drexel.edu/mkm84/Week4-HW/OR_gate/OR8.vhd EN work/OR8 1398204607 \
+      CP OR_gate
+FL //dunx1.irt.drexel.edu/mkm84/Week4-HW/OR_gate/OR_gate.vhd 2014/04/22.17:57:09 P.68d
+EN work/OR_gate 1398204605 \
+      FL //dunx1.irt.drexel.edu/mkm84/Week4-HW/OR_gate/OR_gate.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/OR_gate/Behavioral 1398204606 \
+      FL //dunx1.irt.drexel.edu/mkm84/Week4-HW/OR_gate/OR_gate.vhd \
+      EN work/OR_gate 1398204605

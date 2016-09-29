@@ -1,0 +1,5 @@
+V3 3
+FL C:/Week2Lab1/reg_v1.vhd 2014/04/08.16:06:46 P.68d
+EN work/reg_v1 1396988757 FL C:/Week2Lab1/reg_v1.vhd PB ieee/std_logic_1164 1370735607
+AR work/reg_v1/Behavioral 1396988758 \
+      FL C:/Week2Lab1/reg_v1.vhd EN work/reg_v1 1396988757

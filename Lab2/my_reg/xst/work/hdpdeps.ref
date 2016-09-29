@@ -1,0 +1,6 @@
+V3 3
+FL C:/Users/mkm84/Desktop/Lab2/my_reg/my_reg.vhd 2014/04/03.16:48:53 P.68d
+EN work/my_reg 1396558148 FL C:/Users/mkm84/Desktop/Lab2/my_reg/my_reg.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/my_reg/Behavioral 1396558149 \
+      FL C:/Users/mkm84/Desktop/Lab2/my_reg/my_reg.vhd EN work/my_reg 1396558148

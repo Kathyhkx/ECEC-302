@@ -1,0 +1,17 @@
+NET "CK"   		LOC = "B8";
+NET "X<3>" 		LOC = "P11";
+NET "X<2>" 		LOC = "L3";
+NET "X<1>" 		LOC = "K3";
+NET "X<0>" 		LOC = "B4";
+NET "Z1<3>" 	LOC = "G1";
+NET "Z1<2>" 	LOC = "P4";
+NET "Z1<1>" 	LOC = "N4";
+NET "Z1<0>" 	LOC = "N5";
+NET "Z2<3>" 	LOC = "P6";
+NET "Z2<2>" 	LOC = "P7";
+NET "Z2<1>" 	LOC = "M11";
+NET "Z2<0>" 	LOC = "M5";
+NET "en"   		LOC = "N3";
+NET "Button_A" LOC = "C11";
+NET "Button_B" LOC = "G12";
+

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Week2Lab2-2/reg_v3.xst" -ofn "C:/Week2Lab2-2/reg_v3.syr" 
+xst -intstyle ise -ifn "C:/Week2Lab2-2/reg_v3.xst" -ofn "C:/Week2Lab2-2/reg_v3.syr" 

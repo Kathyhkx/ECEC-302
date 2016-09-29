@@ -1,0 +1,26 @@
+xst -intstyle ise -ifn "C:/Week2Lab1/reg_v1.xst" -ofn "C:/Week2Lab1/reg_v1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 reg_v1.ngc reg_v1.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o reg_v1_map.ncd reg_v1.ngd reg_v1.pcf 
+par -w -intstyle ise -ol high -t 1 reg_v1_map.ncd reg_v1.ncd reg_v1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml reg_v1.twx reg_v1.ncd -o reg_v1.twr reg_v1.pcf 
+bitgen -intstyle ise -f reg_v1.ut reg_v1.ncd 
+bitgen -intstyle ise -f reg_v1.ut reg_v1.ncd 
+xst -intstyle ise -ifn "C:/Week2Lab1/reg_v1.xst" -ofn "C:/Week2Lab1/reg_v1.syr" 
+xst -intstyle ise -ifn "C:/Week2Lab1/reg_v1.xst" -ofn "C:/Week2Lab1/reg_v1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reg_v1.ucf -p xc3s100e-cp132-4 reg_v1.ngc reg_v1.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o reg_v1_map.ncd reg_v1.ngd reg_v1.pcf 
+par -w -intstyle ise -ol high -t 1 reg_v1_map.ncd reg_v1.ncd reg_v1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml reg_v1.twx reg_v1.ncd -o reg_v1.twr reg_v1.pcf -ucf reg_v1.ucf 
+bitgen -intstyle ise -f reg_v1.ut reg_v1.ncd 
+xst -intstyle ise -ifn "C:/Week2Lab1/reg_v1.xst" -ofn "C:/Week2Lab1/reg_v1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reg_v1.ucf -p xc3s100e-cp132-4 reg_v1.ngc reg_v1.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o reg_v1_map.ncd reg_v1.ngd reg_v1.pcf 
+par -w -intstyle ise -ol high -t 1 reg_v1_map.ncd reg_v1.ncd reg_v1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml reg_v1.twx reg_v1.ncd -o reg_v1.twr reg_v1.pcf -ucf reg_v1.ucf 
+bitgen -intstyle ise -f reg_v1.ut reg_v1.ncd 
+xst -intstyle ise -ifn "C:/Week2Lab1/reg_v1.xst" -ofn "C:/Week2Lab1/reg_v1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reg_v1.ucf -p xc3s100e-cp132-4 reg_v1.ngc reg_v1.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o reg_v1_map.ncd reg_v1.ngd reg_v1.pcf 
+par -w -intstyle ise -ol high -t 1 reg_v1_map.ncd reg_v1.ncd reg_v1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml reg_v1.twx reg_v1.ncd -o reg_v1.twr reg_v1.pcf -ucf reg_v1.ucf 
+bitgen -intstyle ise -f reg_v1.ut reg_v1.ncd 

@@ -1,0 +1,9 @@
+V3 3
+FL "//dunx1.irt.drexel.edu/mkm84/ECEC 302/radixR_adder/radixR_adder.vhd" 2014/05/27.17:36:38 P.68d
+EN work/radixR_adder 1401226601 \
+      FL "//dunx1.irt.drexel.edu/mkm84/ECEC 302/radixR_adder/radixR_adder.vhd" \
+      PB ieee/std_logic_1164 1370735607 PB ieee/std_logic_arith 1370735608 \
+      PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/radixR_adder/Behavioral 1401226602 \
+      FL "//dunx1.irt.drexel.edu/mkm84/ECEC 302/radixR_adder/radixR_adder.vhd" \
+      EN work/radixR_adder 1401226601

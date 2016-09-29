@@ -1,0 +1,16 @@
+NET "a<3>" 		LOC = "N3";
+NET "a<2>" 		LOC = "E2";
+NET "a<1>" 		LOC = "F3";
+NET "a<0>" 		LOC = "G3";
+NET "b<3>" 		LOC = "B4";
+NET "b<2>" 		LOC = "K3";
+NET "b<1>" 		LOC = "L3";
+NET "b<0>" 		LOC = "P11";
+NET "p<7>" 		LOC = "G1";
+NET "p<6>" 		LOC = "P4";
+NET "p<5>" 		LOC = "N4";
+NET "p<4>" 		LOC = "N5";
+NET "p<3>" 		LOC = "P6";
+NET "p<2>" 		LOC = "P7";
+NET "p<1>" 		LOC = "M11";
+NET "p<0>" 		LOC = "M5";

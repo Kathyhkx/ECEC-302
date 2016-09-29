@@ -1,0 +1,5 @@
+[Inputs]
+=v[1:8]=
+[Outputs]
+y
+[BiDir]

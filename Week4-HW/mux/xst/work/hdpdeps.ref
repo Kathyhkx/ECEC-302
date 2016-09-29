@@ -1,0 +1,12 @@
+V3 7
+FL //dunx1.irt.drexel.edu/mkm84/Week4-HW/mux/mux.vhd 2014/04/24.17:08:54 P.68d
+EN work/mux 1398373737 FL //dunx1.irt.drexel.edu/mkm84/Week4-HW/mux/mux.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/mux/Behavioral 1398373738 \
+      FL //dunx1.irt.drexel.edu/mkm84/Week4-HW/mux/mux.vhd EN work/mux 1398373737
+FL //dunx1.irt.drexel.edu/mkm84/Week4-HW/mux/MUX4.vhd 2014/04/24.16:47:45 P.68d
+EN work/MUX4 1398373739 FL //dunx1.irt.drexel.edu/mkm84/Week4-HW/mux/MUX4.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/MUX4/struc 1398373740 \
+      FL //dunx1.irt.drexel.edu/mkm84/Week4-HW/mux/MUX4.vhd EN work/MUX4 1398373739 \
+      CP mux

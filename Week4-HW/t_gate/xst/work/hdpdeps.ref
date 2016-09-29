@@ -1,0 +1,14 @@
+V3 7
+FL //dunx1.irt.drexel.edu/mkm84/Week4-HW/t_gate/t_gate.vhd 2014/04/24.17:51:53 P.68d
+EN work/t_gate 1398376393 \
+      FL //dunx1.irt.drexel.edu/mkm84/Week4-HW/t_gate/t_gate.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/t_gate/Behavioral 1398376394 \
+      FL //dunx1.irt.drexel.edu/mkm84/Week4-HW/t_gate/t_gate.vhd EN work/t_gate 1398376393
+FL //dunx1.irt.drexel.edu/mkm84/Week4-HW/t_gate/t_gate_impl.vhd 2014/04/24.17:53:08 P.68d
+EN work/t_gate_impl 1398376395 \
+      FL //dunx1.irt.drexel.edu/mkm84/Week4-HW/t_gate/t_gate_impl.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/t_gate_impl/struc 1398376396 \
+      FL //dunx1.irt.drexel.edu/mkm84/Week4-HW/t_gate/t_gate_impl.vhd \
+      EN work/t_gate_impl 1398376395 CP t_gate

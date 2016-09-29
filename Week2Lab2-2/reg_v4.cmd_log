@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "C:/Week2Lab2-2/reg_v4.xst" -ofn "C:/Week2Lab2-2/reg_v4.syr" 
+xst -intstyle ise -ifn "C:/Week2Lab2-2/reg_v4.xst" -ofn "C:/Week2Lab2-2/reg_v4.syr" 
+xst -intstyle ise -ifn "C:/Week2Lab2-2/reg_v4.xst" -ofn "C:/Week2Lab2-2/reg_v4.syr" 
+xst -intstyle ise -ifn "C:/Week2Lab2-2/reg_v4.xst" -ofn "C:/Week2Lab2-2/reg_v4.syr" 
+xst -intstyle ise -ifn "C:/Week2Lab2-2/reg_v4.xst" -ofn "C:/Week2Lab2-2/reg_v4.syr" 
+xst -intstyle ise -ifn "C:/Week2Lab2-2/reg_v4.xst" -ofn "C:/Week2Lab2-2/reg_v4.syr" 
+xst -intstyle ise -ifn "C:/Week2Lab2-2/reg_v4.xst" -ofn "C:/Week2Lab2-2/reg_v4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reg_v4.ucf -p xc3s100e-cp132-4 reg_v4.ngc reg_v4.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o reg_v4_map.ncd reg_v4.ngd reg_v4.pcf 
+par -w -intstyle ise -ol high -t 1 reg_v4_map.ncd reg_v4.ncd reg_v4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml reg_v4.twx reg_v4.ncd -o reg_v4.twr reg_v4.pcf -ucf reg_v4.ucf 
+bitgen -intstyle ise -f reg_v4.ut reg_v4.ncd 
+bitgen -intstyle ise -f reg_v4.ut reg_v4.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reg_v4.ucf -p xc3s100e-cp132-4 reg_v4.ngc reg_v4.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o reg_v4_map.ncd reg_v4.ngd reg_v4.pcf 
+par -w -intstyle ise -ol high -t 1 reg_v4_map.ncd reg_v4.ncd reg_v4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml reg_v4.twx reg_v4.ncd -o reg_v4.twr reg_v4.pcf -ucf reg_v4.ucf 
+bitgen -intstyle ise -f reg_v4.ut reg_v4.ncd 

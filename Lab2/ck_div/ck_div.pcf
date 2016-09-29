@@ -1,0 +1,11 @@
+//! **************************************************************************
+// Written by: Map P.68d on Thu Apr 03 15:55:34 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "ck" LOCATE = SITE "B8" LEVEL 1;
+COMP "z" LOCATE = SITE "M5" LEVEL 1;
+COMP "reset" LOCATE = SITE "P11" LEVEL 1;
+NET "ck_BUFGP/IBUFG" BEL "ck_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

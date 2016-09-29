@@ -1,0 +1,6 @@
+vhdl work "work/p1_pack.vhd"
+vhdl work "work/sh_reg.vhd"
+vhdl work "work/serial_add.vhd"
+vhdl work "work/control.vhd"
+vhdl work "work/adder.vhd"
+vhdl work "add3.vhd"

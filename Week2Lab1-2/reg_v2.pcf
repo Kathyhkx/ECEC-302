@@ -1,0 +1,31 @@
+//! **************************************************************************
+// Written by: Map P.68d on Tue Apr 08 16:41:11 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "SW<1>" LOCATE = SITE "L3" LEVEL 1;
+COMP "SW<2>" LOCATE = SITE "K3" LEVEL 1;
+COMP "SW<3>" LOCATE = SITE "B4" LEVEL 1;
+COMP "SW<4>" LOCATE = SITE "G3" LEVEL 1;
+COMP "Z<0>" LOCATE = SITE "N13" LEVEL 1;
+COMP "SW<5>" LOCATE = SITE "F3" LEVEL 1;
+COMP "Z<1>" LOCATE = SITE "M12" LEVEL 1;
+COMP "SW<6>" LOCATE = SITE "E2" LEVEL 1;
+COMP "Z<2>" LOCATE = SITE "L13" LEVEL 1;
+COMP "SW<7>" LOCATE = SITE "N3" LEVEL 1;
+COMP "Z<3>" LOCATE = SITE "P12" LEVEL 1;
+COMP "Z<4>" LOCATE = SITE "N11" LEVEL 1;
+COMP "Z<5>" LOCATE = SITE "N14" LEVEL 1;
+COMP "Z<6>" LOCATE = SITE "H12" LEVEL 1;
+COMP "Z<7>" LOCATE = SITE "L14" LEVEL 1;
+COMP "btns<0>" LOCATE = SITE "G12" LEVEL 1;
+COMP "btns<1>" LOCATE = SITE "C11" LEVEL 1;
+COMP "btns<2>" LOCATE = SITE "M4" LEVEL 1;
+COMP "btns<3>" LOCATE = SITE "A7" LEVEL 1;
+COMP "disp_en<0>" LOCATE = SITE "F12" LEVEL 1;
+COMP "disp_en<1>" LOCATE = SITE "J12" LEVEL 1;
+COMP "disp_en<2>" LOCATE = SITE "M13" LEVEL 1;
+COMP "disp_en<3>" LOCATE = SITE "K14" LEVEL 1;
+COMP "SW<0>" LOCATE = SITE "P11" LEVEL 1;
+SCHEMATIC END;
+

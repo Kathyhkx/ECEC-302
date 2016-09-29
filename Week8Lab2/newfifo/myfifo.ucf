@@ -1,0 +1,19 @@
+NET "dout<3>" 	LOC = "G1";
+NET "dout<2>" 	LOC = "P4";
+NET "dout<1>" 	LOC = "N4";
+NET "dout<0>" 	LOC = "N5";
+NET "full" 		LOC = "M5";
+NET "empty" 	LOC = "M11";
+
+NET "rst"	 	LOC = "N3";
+#NET "rd_en"	LOC = "E2";
+NET "wr_en"	LOC = "F3";
+
+NET "din<3>"	LOC = "B4";
+NET "din<2>"	LOC = "K3";
+NET "din<1>" 	LOC = "L3";
+NET "din<0>" 	LOC = "P11";
+
+NET "ck" 		LOC = "B8";
+NET "b1" 		LOC = "M4";
+NET "b2" 		LOC = "A7";

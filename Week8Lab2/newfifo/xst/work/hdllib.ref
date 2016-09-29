@@ -1,0 +1,4 @@
+AR myfifo behavioral "//dunx1.irt.drexel.edu/mkm84/ECEC 302/newfifo/myfifo.vhd" sub00/vhpl03 1400803046
+AR fifo_416 fifo_416_a "//dunx1.irt.drexel.edu/mkm84/ECEC 302/newfifo/ipcore_dir/fifo_416.vhd" sub00/vhpl01 1400803044
+EN fifo_416 NULL "//dunx1.irt.drexel.edu/mkm84/ECEC 302/newfifo/ipcore_dir/fifo_416.vhd" sub00/vhpl00 1400803043
+EN myfifo NULL "//dunx1.irt.drexel.edu/mkm84/ECEC 302/newfifo/myfifo.vhd" sub00/vhpl02 1400803045

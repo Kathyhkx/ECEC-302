@@ -1,0 +1,21 @@
+xst -intstyle ise -ifn "C:/Week2Lab1-2/reg_v2.xst" -ofn "C:/Week2Lab1-2/reg_v2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reg_v2.ucf -p xc3s100e-cp132-4 reg_v2.ngc reg_v2.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o reg_v2_map.ncd reg_v2.ngd reg_v2.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reg_v2.ucf -p xc3s100e-cp132-4 reg_v2.ngc reg_v2.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o reg_v2_map.ncd reg_v2.ngd reg_v2.pcf 
+par -w -intstyle ise -ol high -t 1 reg_v2_map.ncd reg_v2.ncd reg_v2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml reg_v2.twx reg_v2.ncd -o reg_v2.twr reg_v2.pcf -ucf reg_v2.ucf 
+bitgen -intstyle ise -f reg_v2.ut reg_v2.ncd 
+bitgen -intstyle ise -f reg_v2.ut reg_v2.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reg_v2.ucf -p xc3s100e-cp132-4 reg_v2.ngc reg_v2.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o reg_v2_map.ncd reg_v2.ngd reg_v2.pcf 
+par -w -intstyle ise -ol high -t 1 reg_v2_map.ncd reg_v2.ncd reg_v2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml reg_v2.twx reg_v2.ncd -o reg_v2.twr reg_v2.pcf -ucf reg_v2.ucf 
+bitgen -intstyle ise -f reg_v2.ut reg_v2.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reg_v2.ucf -p xc3s100e-cp132-4 reg_v2.ngc reg_v2.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o reg_v2_map.ncd reg_v2.ngd reg_v2.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reg_v2.ucf -p xc3s100e-cp132-4 reg_v2.ngc reg_v2.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o reg_v2_map.ncd reg_v2.ngd reg_v2.pcf 
+par -w -intstyle ise -ol high -t 1 reg_v2_map.ncd reg_v2.ncd reg_v2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml reg_v2.twx reg_v2.ncd -o reg_v2.twr reg_v2.pcf -ucf reg_v2.ucf 
+bitgen -intstyle ise -f reg_v2.ut reg_v2.ncd 

@@ -1,0 +1,52 @@
+Z:/work/p1_pack.vhd {1 {vcom -work work -2002 -explicit -vopt Z:/work/p1_pack.vhd
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package p1_pack
+
+} {} {}} Z:/work/sh_reg.vhd {1 {vcom -work work -2002 -explicit -vopt Z:/work/sh_reg.vhd
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package p1_pack
+-- Compiling entity sh_reg
+-- Compiling architecture behav of sh_reg
+
+} {} {}} Z:/work/adder.vhd {1 {vcom -work work -2002 -explicit -vopt Z:/work/adder.vhd
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package p1_pack
+-- Compiling entity adder
+-- Compiling architecture struc of adder
+
+} {} {}} Z:/work/serial_add.vhd {1 {vcom -work work -2002 -explicit -vopt Z:/work/serial_add.vhd
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity serial_adder
+-- Compiling architecture behav of serial_adder
+
+} {} {}} Z:/work/control.vhd {1 {vcom -work work -2002 -explicit -vopt Z:/work/control.vhd
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package p1_pack
+-- Compiling entity control
+-- Compiling architecture behav of control
+
+} {} {}} Z:/work/adder_test_bench.vhd {1 {vcom -work work -2002 -explicit -vopt {Z:\work\adder_test_bench.vhd}
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity adder_test_bench
+-- Compiling architecture beh of adder_test_bench
+
+} {} {}}

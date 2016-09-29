@@ -1,0 +1,4 @@
+AR t_gate behavioral //dunx1.irt.drexel.edu/mkm84/Week4-HW/t_gate/t_gate.vhd sub00/vhpl01 1398376394
+AR t_gate_impl struc //dunx1.irt.drexel.edu/mkm84/Week4-HW/t_gate/t_gate_impl.vhd sub00/vhpl03 1398376396
+EN t_gate_impl NULL //dunx1.irt.drexel.edu/mkm84/Week4-HW/t_gate/t_gate_impl.vhd sub00/vhpl02 1398376395
+EN t_gate NULL //dunx1.irt.drexel.edu/mkm84/Week4-HW/t_gate/t_gate.vhd sub00/vhpl00 1398376393

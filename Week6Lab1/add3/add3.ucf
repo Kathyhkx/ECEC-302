@@ -1,0 +1,15 @@
+NET	"ck"		LOC = "B8";
+NET	"b1"		LOC = "C11";
+NET	"b2"		LOC = "G12";
+NET	"go"		LOC = "N3";
+NET	"reset"	LOC = "E2";
+NET	"a<2>"	LOC = "F3";
+NET	"a<1>"	LOC = "G3";
+NET	"a<0>"	LOC = "B4";
+NET	"b<2>"	LOC = "K3";
+NET	"b<1>"	LOC = "L3";
+NET	"b<0>"	LOC = "P11";
+NET	"c_out"	LOC = "G1";
+NET	"c<2>"	LOC = "P7";
+NET	"c<1>"	LOC = "M11";
+NET	"c<0>"	LOC = "M5";

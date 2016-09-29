@@ -1,0 +1,8 @@
+V3 3
+FL //dunx1.irt.drexel.edu/mkm84/serial_adder/serial_adder.vhd 2014/04/17.17:30:34 P.68d
+EN work/serial_adder 1397770286 \
+      FL //dunx1.irt.drexel.edu/mkm84/serial_adder/serial_adder.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/serial_adder/behav 1397770287 \
+      FL //dunx1.irt.drexel.edu/mkm84/serial_adder/serial_adder.vhd \
+      EN work/serial_adder 1397770286

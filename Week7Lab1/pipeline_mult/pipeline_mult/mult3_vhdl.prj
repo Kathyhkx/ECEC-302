@@ -1,0 +1,4 @@
+vhdl work "\\dunx1.irt.drexel.edu\mkm84\pipeline_mult\pe.vhd"
+vhdl work "\\dunx1.irt.drexel.edu\mkm84\pipeline_mult\DFF.vhd"
+vhdl work "\\dunx1.irt.drexel.edu\mkm84\pipeline_mult\pipe_mult.vhd"
+vhdl work "\\dunx1.irt.drexel.edu\mkm84\pipeline_mult\mult3.vhd"

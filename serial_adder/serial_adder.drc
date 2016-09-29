@@ -1,0 +1,8 @@
+Release 14.6 Drc P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Thu Apr 17 17:31:54 2014
+
+drc -z serial_adder.ncd serial_adder.pcf
+
+DRC detected 0 errors and 0 warnings.

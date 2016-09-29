@@ -1,0 +1,22 @@
+NET "addra<3>" LOC = "N3";
+NET "addra<2>" LOC = "E2";
+NET "addra<1>" LOC = "F3";
+NET "addra<0>" LOC = "G3";
+
+NET "dina<3>" 	LOC = "B4";
+NET "dina<2>" 	LOC = "K3";
+NET "dina<1>" 	LOC = "L3";
+NET "dina<0>" 	LOC = "P11";
+
+NET "douta<3>" LOC = "G1";
+NET "douta<2>" LOC = "P4";
+NET "douta<1>" LOC = "N4";
+NET "douta<0>" LOC = "N5";
+
+NET "douta2<3>" LOC = "P6";
+NET "douta2<2>" LOC = "P7";
+NET "douta2<1>" LOC = "M11";
+NET "douta2<0>" LOC = "M5";
+
+NET "clka" 		LOC = "B8";
+NET "wea<0>" 	LOC = "G12";

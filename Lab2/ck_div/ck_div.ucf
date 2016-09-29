@@ -1,0 +1,4 @@
+# ucf file (comments)
+NET "CK" LOC = "B8";	# SW7
+NET "reset" LOC = "P11";
+NET "z" LOC = "M5";	# SW7

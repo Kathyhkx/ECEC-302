@@ -1,0 +1,6 @@
+V3 3
+FL C:/Users/mkm84/Desktop/Lab1/decoder/decoder.vhd 2014/04/01.16:31:56 P.68d
+EN work/decoder 1396384601 FL C:/Users/mkm84/Desktop/Lab1/decoder/decoder.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/decoder/Behavioral 1396384602 \
+      FL C:/Users/mkm84/Desktop/Lab1/decoder/decoder.vhd EN work/decoder 1396384601

@@ -1,0 +1,15 @@
+V3 7
+FL "//dunx1.irt.drexel.edu/mkm84/ECEC 302/accumulator/ipcore_dir/accum.vhd" 2014/06/03.15:46:04 P.68d
+EN work/accum 1401826718 \
+      FL "//dunx1.irt.drexel.edu/mkm84/ECEC 302/accumulator/ipcore_dir/accum.vhd" \
+      PB ieee/std_logic_1164 1370735607
+AR work/accum/accum_a 1401826719 \
+      FL "//dunx1.irt.drexel.edu/mkm84/ECEC 302/accumulator/ipcore_dir/accum.vhd" \
+      EN work/accum 1401826718
+FL "//dunx1.irt.drexel.edu/mkm84/ECEC 302/accumulator/myaccum.vhd" 2014/06/03.16:18:35 P.68d
+EN work/myaccum 1401826720 \
+      FL "//dunx1.irt.drexel.edu/mkm84/ECEC 302/accumulator/myaccum.vhd" \
+      PB ieee/std_logic_1164 1370735607
+AR work/myaccum/Behavioral 1401826721 \
+      FL "//dunx1.irt.drexel.edu/mkm84/ECEC 302/accumulator/myaccum.vhd" \
+      EN work/myaccum 1401826720 CP accum

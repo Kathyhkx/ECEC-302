@@ -1,0 +1,54 @@
+xst -intstyle ise -ifn "Z:/Week4-HW/t_gate/t_gate_impl.xst" -ofn "Z:/Week4-HW/t_gate/t_gate_impl.syr" 
+xst -intstyle ise -ifn "Z:/Week4-HW/t_gate/t_gate_impl.xst" -ofn "Z:/Week4-HW/t_gate/t_gate_impl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 t_gate_impl.ngc t_gate_impl.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o t_gate_impl_map.ncd t_gate_impl.ngd t_gate_impl.pcf 
+par -w -intstyle ise -ol high -t 1 t_gate_impl_map.ncd t_gate_impl.ncd t_gate_impl.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml t_gate_impl.twx t_gate_impl.ncd -o t_gate_impl.twr t_gate_impl.pcf 
+bitgen -intstyle ise -f t_gate_impl.ut t_gate_impl.ncd 
+bitgen -intstyle ise -f t_gate_impl.ut t_gate_impl.ncd 
+xst -intstyle ise -ifn "Z:/Week4-HW/t_gate/t_gate_impl.xst" -ofn "Z:/Week4-HW/t_gate/t_gate_impl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc t_gate_impl.ucf -p xc3s100e-cp132-4 t_gate_impl.ngc t_gate_impl.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o t_gate_impl_map.ncd t_gate_impl.ngd t_gate_impl.pcf 
+par -w -intstyle ise -ol high -t 1 t_gate_impl_map.ncd t_gate_impl.ncd t_gate_impl.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml t_gate_impl.twx t_gate_impl.ncd -o t_gate_impl.twr t_gate_impl.pcf -ucf t_gate_impl.ucf 
+bitgen -intstyle ise -f t_gate_impl.ut t_gate_impl.ncd 
+xst -intstyle ise -ifn "Z:/Week4-HW/t_gate/t_gate_impl.xst" -ofn "Z:/Week4-HW/t_gate/t_gate_impl.syr" 
+xst -intstyle ise -ifn "Z:/Week4-HW/t_gate/t_gate_impl.xst" -ofn "Z:/Week4-HW/t_gate/t_gate_impl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc t_gate_impl.ucf -p xc3s100e-cp132-4 t_gate_impl.ngc t_gate_impl.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o t_gate_impl_map.ncd t_gate_impl.ngd t_gate_impl.pcf 
+par -w -intstyle ise -ol high -t 1 t_gate_impl_map.ncd t_gate_impl.ncd t_gate_impl.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml t_gate_impl.twx t_gate_impl.ncd -o t_gate_impl.twr t_gate_impl.pcf -ucf t_gate_impl.ucf 
+bitgen -intstyle ise -f t_gate_impl.ut t_gate_impl.ncd 
+xst -intstyle ise -ifn "Z:/Week4-HW/t_gate/t_gate_impl.xst" -ofn "Z:/Week4-HW/t_gate/t_gate_impl.syr" 
+xst -intstyle ise -ifn "Z:/Week4-HW/t_gate/t_gate_impl.xst" -ofn "Z:/Week4-HW/t_gate/t_gate_impl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc t_gate_impl.ucf -p xc3s100e-cp132-4 t_gate_impl.ngc t_gate_impl.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o t_gate_impl_map.ncd t_gate_impl.ngd t_gate_impl.pcf 
+par -w -intstyle ise -ol high -t 1 t_gate_impl_map.ncd t_gate_impl.ncd t_gate_impl.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml t_gate_impl.twx t_gate_impl.ncd -o t_gate_impl.twr t_gate_impl.pcf -ucf t_gate_impl.ucf 
+bitgen -intstyle ise -f t_gate_impl.ut t_gate_impl.ncd 
+xst -intstyle ise -ifn "Z:/Week4-HW/t_gate/t_gate_impl.xst" -ofn "Z:/Week4-HW/t_gate/t_gate_impl.syr" 
+xst -intstyle ise -ifn "Z:/Week4-HW/t_gate/t_gate_impl.xst" -ofn "Z:/Week4-HW/t_gate/t_gate_impl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc t_gate_impl.ucf -p xc3s100e-cp132-4 t_gate_impl.ngc t_gate_impl.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o t_gate_impl_map.ncd t_gate_impl.ngd t_gate_impl.pcf 
+par -w -intstyle ise -ol high -t 1 t_gate_impl_map.ncd t_gate_impl.ncd t_gate_impl.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml t_gate_impl.twx t_gate_impl.ncd -o t_gate_impl.twr t_gate_impl.pcf -ucf t_gate_impl.ucf 
+bitgen -intstyle ise -f t_gate_impl.ut t_gate_impl.ncd 
+xst -intstyle ise -ifn "Z:/Week4-HW/t_gate/t_gate_impl.xst" -ofn "Z:/Week4-HW/t_gate/t_gate_impl.syr" 
+xst -intstyle ise -ifn "Z:/Week4-HW/t_gate/t_gate_impl.xst" -ofn "Z:/Week4-HW/t_gate/t_gate_impl.syr" 
+xst -intstyle ise -ifn "Z:/Week4-HW/t_gate/t_gate_impl.xst" -ofn "Z:/Week4-HW/t_gate/t_gate_impl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc t_gate_impl.ucf -p xc3s100e-cp132-4 t_gate_impl.ngc t_gate_impl.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o t_gate_impl_map.ncd t_gate_impl.ngd t_gate_impl.pcf 
+xst -intstyle ise -ifn "Z:/Week4-HW/t_gate/t_gate_impl.xst" -ofn "Z:/Week4-HW/t_gate/t_gate_impl.syr" 
+xst -intstyle ise -ifn "Z:/Week4-HW/t_gate/t_gate_impl.xst" -ofn "Z:/Week4-HW/t_gate/t_gate_impl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc t_gate_impl.ucf -p xc3s100e-cp132-4 t_gate_impl.ngc t_gate_impl.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o t_gate_impl_map.ncd t_gate_impl.ngd t_gate_impl.pcf 
+par -w -intstyle ise -ol high -t 1 t_gate_impl_map.ncd t_gate_impl.ncd t_gate_impl.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml t_gate_impl.twx t_gate_impl.ncd -o t_gate_impl.twr t_gate_impl.pcf -ucf t_gate_impl.ucf 
+bitgen -intstyle ise -f t_gate_impl.ut t_gate_impl.ncd 
+xst -intstyle ise -ifn "Z:/Week4-HW/t_gate/t_gate_impl.xst" -ofn "Z:/Week4-HW/t_gate/t_gate_impl.syr" 
+xst -intstyle ise -ifn "Z:/Week4-HW/t_gate/t_gate_impl.xst" -ofn "Z:/Week4-HW/t_gate/t_gate_impl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc t_gate_impl.ucf -p xc3s100e-cp132-4 t_gate_impl.ngc t_gate_impl.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o t_gate_impl_map.ncd t_gate_impl.ngd t_gate_impl.pcf 
+par -w -intstyle ise -ol high -t 1 t_gate_impl_map.ncd t_gate_impl.ncd t_gate_impl.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml t_gate_impl.twx t_gate_impl.ncd -o t_gate_impl.twr t_gate_impl.pcf -ucf t_gate_impl.ucf 
+bitgen -intstyle ise -f t_gate_impl.ut t_gate_impl.ncd 

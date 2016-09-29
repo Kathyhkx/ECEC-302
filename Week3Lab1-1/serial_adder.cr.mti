@@ -1,0 +1,9 @@
+C:/Users/mkm84/Desktop/Week3Lab1-1/serial_add.vhd {1 {vcom -work work -2002 -explicit -vopt C:/Users/mkm84/Desktop/Week3Lab1-1/serial_add.vhd
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity serial_adder
+-- Compiling architecture behav of serial_adder
+
+} {} {}}

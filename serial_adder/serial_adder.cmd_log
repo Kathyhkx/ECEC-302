@@ -1,0 +1,41 @@
+xst -intstyle ise -ifn "Z:/serial_adder/serial_adder.xst" -ofn "Z:/serial_adder/serial_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 serial_adder.ngc serial_adder.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o serial_adder_map.ncd serial_adder.ngd serial_adder.pcf 
+par -w -intstyle ise -ol high -t 1 serial_adder_map.ncd serial_adder.ncd serial_adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml serial_adder.twx serial_adder.ncd -o serial_adder.twr serial_adder.pcf 
+bitgen -intstyle ise -f serial_adder.ut serial_adder.ncd 
+bitgen -intstyle ise -f serial_adder.ut serial_adder.ncd 
+xst -intstyle ise -ifn "Z:/serial_adder/serial_adder.xst" -ofn "Z:/serial_adder/serial_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 serial_adder.ngc serial_adder.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o serial_adder_map.ncd serial_adder.ngd serial_adder.pcf 
+par -w -intstyle ise -ol high -t 1 serial_adder_map.ncd serial_adder.ncd serial_adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml serial_adder.twx serial_adder.ncd -o serial_adder.twr serial_adder.pcf 
+bitgen -intstyle ise -f serial_adder.ut serial_adder.ncd 
+xst -intstyle ise -ifn "Z:/serial_adder/serial_adder.xst" -ofn "Z:/serial_adder/serial_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_adder.ucf -p xc3s100e-cp132-4 serial_adder.ngc serial_adder.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o serial_adder_map.ncd serial_adder.ngd serial_adder.pcf 
+par -w -intstyle ise -ol high -t 1 serial_adder_map.ncd serial_adder.ncd serial_adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml serial_adder.twx serial_adder.ncd -o serial_adder.twr serial_adder.pcf -ucf serial_adder.ucf 
+bitgen -intstyle ise -f serial_adder.ut serial_adder.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_adder.ucf -p xc3s100e-cp132-4 serial_adder.ngc serial_adder.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o serial_adder_map.ncd serial_adder.ngd serial_adder.pcf 
+par -w -intstyle ise -ol high -t 1 serial_adder_map.ncd serial_adder.ncd serial_adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml serial_adder.twx serial_adder.ncd -o serial_adder.twr serial_adder.pcf -ucf serial_adder.ucf 
+bitgen -intstyle ise -f serial_adder.ut serial_adder.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_adder.ucf -p xc3s100e-cp132-4 serial_adder.ngc serial_adder.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o serial_adder_map.ncd serial_adder.ngd serial_adder.pcf 
+par -w -intstyle ise -ol high -t 1 serial_adder_map.ncd serial_adder.ncd serial_adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml serial_adder.twx serial_adder.ncd -o serial_adder.twr serial_adder.pcf -ucf serial_adder.ucf 
+bitgen -intstyle ise -f serial_adder.ut serial_adder.ncd 
+xst -intstyle ise -ifn "Z:/serial_adder/serial_adder.xst" -ofn "Z:/serial_adder/serial_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_adder.ucf -p xc3s100e-cp132-4 serial_adder.ngc serial_adder.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o serial_adder_map.ncd serial_adder.ngd serial_adder.pcf 
+par -w -intstyle ise -ol high -t 1 serial_adder_map.ncd serial_adder.ncd serial_adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml serial_adder.twx serial_adder.ncd -o serial_adder.twr serial_adder.pcf -ucf serial_adder.ucf 
+bitgen -intstyle ise -f serial_adder.ut serial_adder.ncd 
+xst -intstyle ise -ifn "Z:/serial_adder/serial_adder.xst" -ofn "Z:/serial_adder/serial_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_adder.ucf -p xc3s100e-cp132-4 serial_adder.ngc serial_adder.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o serial_adder_map.ncd serial_adder.ngd serial_adder.pcf 
+par -w -intstyle ise -ol high -t 1 serial_adder_map.ncd serial_adder.ncd serial_adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml serial_adder.twx serial_adder.ncd -o serial_adder.twr serial_adder.pcf -ucf serial_adder.ucf 
+bitgen -intstyle ise -f serial_adder.ut serial_adder.ncd 

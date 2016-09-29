@@ -1,0 +1,16 @@
+# Output products list for <accum>
+accum.asy
+accum.gise
+accum.ngc
+accum.sym
+accum.vhd
+accum.vho
+accum.xco
+accum.xise
+accum\doc\c_accum_v11_0_readme.txt
+accum\doc\c_accum_v11_0_vinfo.html
+accum\doc\ds213_accum.pdf
+accum_flist.txt
+accum_xmdf.tcl
+core_resources.txt
+gui_latency.txt

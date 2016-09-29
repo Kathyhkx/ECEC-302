@@ -1,0 +1,193 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\work
+T_opt
+VTj^_a]mmgS0:4zZP=m_`60
+04 6 5 work sh_reg behav 1
+=1-90b11c829bb3-5356d588-282-1d78
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 n@_opt
+Z3 OL;O;10.1c;51
+Z4 dC:\work
+T_opt1
+V>:jReYnR7AW2<;ojC_BV51
+04 7 5 work control behav 1
+=1-90b11c87cf56-536006fb-30c-3cd4
+R1
+n@_opt1
+R3
+R4
+T_opt2
+Vji1F3OdMI<Az<[1;bO_mU0
+04 5 5 work adder struc 1
+=1-90b11c87cf56-53601622-3be-3980
+R1
+n@_opt2
+R3
+Eadder
+Z5 w1398805643
+Z6 DPx4 work 7 p1_pack 0 22 8z_SST5Wa;NK=o>=;GGeD1
+Z7 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z8 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z9 dZ:\work
+Z10 8Z:\work\adder.vhd
+Z11 FZ:\work\adder.vhd
+l0
+L3
+V4NkJEj:1Pd^K72zLj]4`P0
+Z12 OL;C;10.1c;51
+32
+Z13 !s108 1398805649.178000
+Z14 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|Z:\work\adder.vhd|
+Z15 !s107 Z:\work\adder.vhd|
+Z16 o-work work -2002 -explicit
+Z17 tExplicit 1
+!s100 7?zogc4aYgQG:`nzEmH^K3
+!i10b 1
+Astruc
+R6
+R7
+R8
+DEx4 work 5 adder 0 22 4NkJEj:1Pd^K72zLj]4`P0
+l45
+L10
+VEFHC<gkAI>B>eZ1TiYV]a0
+R12
+32
+R13
+R14
+R15
+R16
+R17
+!s100 g1oEn]6TYZ4e:zSTA0;<H3
+!i10b 1
+Econtrol
+Z18 w1398805969
+R6
+R7
+R8
+R9
+Z19 8Z:/work/control.vhd
+Z20 FZ:/work/control.vhd
+l0
+L3
+V7M`cnOO1Y?;cL8]5jDObk0
+R12
+32
+Z21 !s108 1398805995.470000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|Z:/work/control.vhd|
+Z23 !s107 Z:/work/control.vhd|
+R16
+R17
+!s100 ZEKV^NUXH8DZ5njHVMDG30
+!i10b 1
+Abehav
+R6
+R7
+R8
+DEx4 work 7 control 0 22 7M`cnOO1Y?;cL8]5jDObk0
+l11
+L8
+VTnM>J4JLoK1b]GDQ0WTU<3
+R12
+32
+R21
+R22
+R23
+R16
+R17
+!s100 X?hoM46iTTTz1VWMR<z913
+!i10b 1
+Pp1_pack
+R7
+R8
+Z24 w1398198098
+R4
+8C:/work/p1_pack.vhd
+FC:/work/p1_pack.vhd
+l0
+L3
+V8z_SST5Wa;NK=o>=;GGeD1
+R12
+32
+R16
+R17
+Z25 !s100 oQY[>];;20Z>L68IR19bf1
+!i10b 1
+!s108 1398199508.074000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/work/p1_pack.vhd|
+!s107 C:/work/p1_pack.vhd|
+Eserial_adder
+Z26 w1397592196
+R7
+R8
+R4
+Z27 8C:/work/serial_add.vhd
+Z28 FC:/work/serial_add.vhd
+l0
+L3
+V7BI8SIA]lD3<zHbmcV`hJ3
+R12
+32
+Z29 !s108 1398199508.280000
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/work/serial_add.vhd|
+Z31 !s107 C:/work/serial_add.vhd|
+R16
+R17
+Z32 !s100 ZX8T_8aP]GHS8;>9G_5d@3
+!i10b 1
+Abehav
+R7
+R8
+DEx4 work 12 serial_adder 0 22 7BI8SIA]lD3<zHbmcV`hJ3
+l14
+L11
+VUcTUF<3DGXQib8o04Xi[>3
+R12
+32
+R29
+R30
+R31
+R16
+R17
+Z33 !s100 I:=PGKWkU5BR[@GkCeIb92
+!i10b 1
+Esh_reg
+Z34 w1398199585
+R6
+R7
+R8
+R4
+Z35 8C:/work/sh_reg.vhd
+Z36 FC:/work/sh_reg.vhd
+l0
+L3
+VF[bK7LH<GERS=YAWUVg7a0
+R12
+32
+Z37 !s108 1398199586.024000
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/work/sh_reg.vhd|
+Z39 !s107 C:/work/sh_reg.vhd|
+R16
+R17
+Z40 !s100 `SA:OTIVmMLB6zl8e[bXU0
+!i10b 1
+Abehav
+R6
+R7
+R8
+DEx4 work 6 sh_reg 0 22 F[bK7LH<GERS=YAWUVg7a0
+l12
+L10
+VV;]BdCVUR1ZmTYd1@8:ST1
+R12
+32
+R37
+R38
+R39
+R16
+R17
+!s100 PW_EgTJGVTSZW`VJUZ]EL2
+!i10b 1

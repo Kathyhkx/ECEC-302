@@ -1,0 +1,26 @@
+xst -intstyle ise -ifn "Z:/ECEC 302/radixR_adder/radixR_adder.xst" -ofn "Z:/ECEC 302/radixR_adder/radixR_adder.syr" 
+xst -intstyle ise -ifn "Z:/ECEC 302/radixR_adder/radixR_adder.xst" -ofn "Z:/ECEC 302/radixR_adder/radixR_adder.syr" 
+xst -intstyle ise -ifn "Z:/ECEC 302/radixR_adder/radixR_adder.xst" -ofn "Z:/ECEC 302/radixR_adder/radixR_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc radixR_adder.ucf -p xc3s100e-cp132-4 "radixR_adder.ngc" radixR_adder.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o radixR_adder_map.ncd radixR_adder.ngd radixR_adder.pcf 
+par -w -intstyle ise -ol high -t 1 radixR_adder_map.ncd radixR_adder.ncd radixR_adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml radixR_adder.twx radixR_adder.ncd -o radixR_adder.twr radixR_adder.pcf -ucf radixR_adder.ucf 
+bitgen -intstyle ise -f radixR_adder.ut radixR_adder.ncd 
+xst -intstyle ise -ifn "Z:/ECEC 302/radixR_adder/radixR_adder.xst" -ofn "Z:/ECEC 302/radixR_adder/radixR_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc radixR_adder.ucf -p xc3s100e-cp132-4 "radixR_adder.ngc" radixR_adder.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o radixR_adder_map.ncd radixR_adder.ngd radixR_adder.pcf 
+par -w -intstyle ise -ol high -t 1 radixR_adder_map.ncd radixR_adder.ncd radixR_adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml radixR_adder.twx radixR_adder.ncd -o radixR_adder.twr radixR_adder.pcf -ucf radixR_adder.ucf 
+bitgen -intstyle ise -f radixR_adder.ut radixR_adder.ncd 
+xst -intstyle ise -ifn "Z:/ECEC 302/radixR_adder/radixR_adder.xst" -ofn "Z:/ECEC 302/radixR_adder/radixR_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc radixR_adder.ucf -p xc3s100e-cp132-4 "radixR_adder.ngc" radixR_adder.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o radixR_adder_map.ncd radixR_adder.ngd radixR_adder.pcf 
+par -w -intstyle ise -ol high -t 1 radixR_adder_map.ncd radixR_adder.ncd radixR_adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml radixR_adder.twx radixR_adder.ncd -o radixR_adder.twr radixR_adder.pcf -ucf radixR_adder.ucf 
+bitgen -intstyle ise -f radixR_adder.ut radixR_adder.ncd 
+xst -intstyle ise -ifn "Z:/ECEC 302/radixR_adder/radixR_adder.xst" -ofn "Z:/ECEC 302/radixR_adder/radixR_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc radixR_adder.ucf -p xc3s100e-cp132-4 "radixR_adder.ngc" radixR_adder.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o radixR_adder_map.ncd radixR_adder.ngd radixR_adder.pcf 
+par -w -intstyle ise -ol high -t 1 radixR_adder_map.ncd radixR_adder.ncd radixR_adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml radixR_adder.twx radixR_adder.ncd -o radixR_adder.twr radixR_adder.pcf -ucf radixR_adder.ucf 
+bitgen -intstyle ise -f radixR_adder.ut radixR_adder.ncd 

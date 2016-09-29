@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">//dunx1.irt.drexel.edu/mkm84/pipeline_mult/pipe_mult.vhd</arg>&quot; line <arg fmt="%d" index="2">43</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">y_out</arg>&apos; of component &apos;<arg fmt="%s" index="4">pe</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="2110" delta="new" >Clock of register &lt;<arg fmt="%s" index="1">Q</arg>&gt; seems to be also used in the data or control logic of that element.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">threemult/g1[3].g4.cell/tmp1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mult3</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+
